@@ -40,6 +40,13 @@
       Users.all = () => {
         return userList;
       }
+
+      Users.findById = (id) => {
+        return userList.find(user => {
+          return user.id === id;
+        });
+      };
+
       return Users;
     })
 })();
