@@ -24,7 +24,8 @@ module.exports = function(config) {
    './app/app.js',
    './app/services/users/users.spec.js',
    './app/services/pokemon/pokemon.spec.js',
-   './app/components/users/users.spec.js'
+   './app/components/users/users.spec.js',
+   './app/testing/common.js'
     ],
 
 
